@@ -20,7 +20,6 @@ Ever wondered which *Friends* character you're most like? Take this fun, interac
 
 ![Screenshot](images/app.png)
 
-Result
 ![Screenshot](images/result.jpg)
 
 ## 🧪 Questions Sample
