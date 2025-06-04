@@ -77,7 +77,7 @@ def get_character(score):
 # Streamlit app
 def app():
     st.set_page_config(page_title="🎬 Friends Character Quiz", layout="centered")
-    st.image("images/logo.png", width=50)  # Adjust path and size
+    # st.image("images/logo.png", width=50)  # Adjust path and size
 
     st.markdown("<h1 style='text-align: center;'>🌟 Which Friends Character Are You?</h1>", unsafe_allow_html=True)
     st.markdown("<p style='text-align: center;'>Answer the questions below and find your Central Perk twin! ☕</p>", unsafe_allow_html=True)
