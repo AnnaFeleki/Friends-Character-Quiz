@@ -105,7 +105,7 @@ def app():
 
             char = characters[result]
 
-            st.markdown(f"<h2 style='text-align: center;'>🎉 You are most like <span style='color:#f63366'>{result}</span>!</h2>", unsafe_allow_html=True)
+            st.markdown(f"<h2 style='text-align: center;'>🎉 You are <span style='color:#f63366'>{result}</span>!</h2>", unsafe_allow_html=True)
             st.image(char["img"], use_column_width=True)
             # st.markdown(f"<p style='text-align: center; font-style: italic;'>“{char['quote']}”</p>", unsafe_allow_html=True)
 
