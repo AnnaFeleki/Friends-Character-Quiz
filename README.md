@@ -44,6 +44,6 @@ The quiz assigns scores (1–5) for each question. Based on your total score, yo
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/AnnaFeleki/friends-quiz.git
+   git clone [https://github.com/AnnaFeleki/friends-quiz.git](https://github.com/AnnaFeleki/Friends-Character-Quiz/tree/main)
    cd Friends-Character-Quiz
    streamlit run main.py
