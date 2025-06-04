@@ -7,7 +7,6 @@ Ever wondered which *Friends* character you're most like? Take this fun, interac
 - 🧠 9 quirky personality-based questions
 - 🎭 Dynamic scoring system
 - 📸 Displays character image & iconic quote on result
-- 🖼️ Supports local image loading (`images/` folder)
 - 💻 Streamlit-powered and easy to run
 
 ## 📦 Tech Stack
