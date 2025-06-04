@@ -65,11 +65,11 @@ def app():
     ]
 
     choices = [
-        "1️⃣ Not at all", 
-        "2️⃣ A little", 
-        "3️⃣ Sometimes", 
-        "4️⃣ Often", 
-        "5️⃣ Very much"
+        "Not at all", 
+        "A little", 
+        "Sometimes", 
+        "Often", 
+        "Very much"
     ]
     
     answers=    []
@@ -86,7 +86,11 @@ def app():
                         key=f"q{i + j}", 
                         label_visibility="collapsed"
                     )
-                    answers.append(ans) 
+                    if ans is not None:
+                        answers.append(choices.index(ans) + 1)
+                    else:
+                        answers.append(None)
+
 
 
 
@@ -96,8 +100,9 @@ def app():
             st.warning("Please answer all questions before continuing!")
         else:
             # Extract numeric values from strings like "1️⃣ Not at all"
-            numeric_answers = [int(a[0]) for a in answers]
-            result = get_character(np.sum(numeric_answers))
+
+            result = get_character(np.sum(answers))
+
             char = characters[result]
 
             st.markdown(f"<h2 style='text-align: center;'>🎉 You are most like <span style='color:#f63366'>{result}</span>!</h2>", unsafe_allow_html=True)
