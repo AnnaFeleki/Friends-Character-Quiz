@@ -45,5 +45,5 @@ The quiz assigns scores (1–5) for each question. Based on your total score, yo
 
 1. Clone the repository  
    ```bash
-   git clone https://github.com/annafeleki/friends-quiz.git
+   git clone https://github.com/AnnaFeleki/friends-quiz.git
    cd friends-quiz
