@@ -17,7 +17,7 @@ Ever wondered which *Friends* character you're most like? Take this fun, interac
 
 ## 📸 Preview
 
-![Screenshot](images/app.png)
+![Screenshot](images/app.jpg)
 
 ![Screenshot](images/result.jpg)
 
